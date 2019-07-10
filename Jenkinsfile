@@ -10,7 +10,7 @@ def JWT_KEY_CRED_ID=env.JWT_CRED_ID_DH
 def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
 def toolbelt= tool 'toolbelt'
  
-println 'All environment variables to be printed here..'
+println 'All environment variables are printed here..'
 println BUILD_NUMBER
 println RUN_ARTIFACT_DIR
 println SFDC_USERNAME
